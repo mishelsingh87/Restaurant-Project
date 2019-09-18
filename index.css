@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    background-color: white;
+    height: 100px;
+}
+
+#header-logo img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    float: left;
+}
+
+.navbar-brand span{
+    font-style: italic;
+    font-size: 16px;
+}
+#navlist a{
+    margin-right: 5px;
+}
+
+#navList a:hover{
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+#phone div{
+    padding-left: 40px;
+    font-size: 0.8em;
+    color: rgb(21, 70, 21);
+}
+
+.fa{
+    text-align: center;
+    display: block;
+}
+
+
+@media (max-width: 988px) {
+    .header{
+        height: auto;
+    }
+    #header-logo{
+      display: none;
+    }
+    .header-brand{
+        top: 0;
+    }
+
+    #phone{
+        display: none;
+    }
+
+    .fa{
+        display: inline;
+        margin-right: 5px;
+    }
+    
+}
