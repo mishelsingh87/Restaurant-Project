@@ -43,6 +43,23 @@ body{
     display: block;
 }
 
+.call-btn{
+    display: none;
+}
+
+.jumbotron{
+    background: url("images/retaurant_image.jpg") no-repeat center;
+    height: 600px;
+}
+
+#home-tile > div{
+    height: 300px;
+    border: 2px solid white;
+}
+
+#menu-tile{
+    background: url("images/menu-tile-image.jpg");
+}
 
 @media (max-width: 988px) {
     .header{
@@ -62,6 +79,36 @@ body{
     .fa{
         display: inline;
         margin-right: 5px;
+    }
+
+    .call-btn a{
+        text-decoration: none;
+        color: black;
+        position: relative;
+        left: 38%;
+
+    }
+
+    .call-btn{
+        display: block;
+        background-color: white;
+        margin: 10px 16px;
+        padding: 5px;
+        border: 2px groove grey;
+        border-radius: 5px;
+        font-size: 1.7em;
+    }
+
+    .call-btn + div{
+        color: white;
+        position: relative;
+        left: 43%;
+        font-size: 18px;
+    }
+
+    .jumbotron{
+        background: url("images/retaurant_image.jpg") no-repeat center;
+        height: 400px;
     }
     
 }
