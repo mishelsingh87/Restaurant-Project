@@ -223,6 +223,10 @@ body{
         background: url("images/retaurant_image.jpg") no-repeat center;
         height: 400px;
     }
+
+    .col-xxs-6{
+        width: 50%;
+    }
     
     
 }
@@ -300,5 +304,7 @@ body{
     #menu-category-heading{
        font-size: 20px;
     }
+
+    
     
 }
