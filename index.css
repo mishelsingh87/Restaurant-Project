@@ -100,7 +100,7 @@ body{
     background-color: lightgray;
     height: auto;
     margin-top: 20px;
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 15px 0;
 
 }
@@ -126,9 +126,7 @@ body{
 }
 
 .copyright{
-    background: black;
-    color: white;
-    width: 100%;
+margin-top: 10px;
 }
 
 .visible-small{
@@ -166,6 +164,58 @@ body{
     text-transform: uppercase;
 }
 
+.menu-item-photo img{
+    max-width: 250px;
+    height: 150px;
+}
+
+.menu-item-tile{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.menu-item-tile hr{
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+
+.menu-item-tile h5{
+    margin-bottom: 20px;
+}
+
+.menu-item-description{
+    padding-right: 30px;
+}
+
+.menu-item-description p{
+    font-size: 0.7em; 
+    font-style: italic;
+}
+
+.menu-item-tile .menu-item-price{
+    margin-left: 82%;
+}
+
+.menu-item-photo{
+    position: relative;
+}
+
+.menu-item-photo div{
+    padding: 5px 4px;
+    background: white;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 35px;
+    height: 35px;
+    width: 35px;
+}
+
+
+
 @media (min-width: 578px) and (max-width: 988px) {
     .header{
         height: auto;
@@ -184,6 +234,10 @@ body{
 
     #header-heading + span{
         font-size: 1rem;
+    }
+
+    .navbar-nav{
+        align-items: center;
     }
 
     #phone{
@@ -214,8 +268,7 @@ body{
 
     .call-btn + div{
         color: white;
-        position: relative;
-        left: 47%;
+        margin-left: 44%;
         font-size: 15px;
     }
 
@@ -227,11 +280,19 @@ body{
     .col-xxs-6{
         width: 50%;
     }
+
+    .visible-medium{
+        display: block;
+    }
     
     
 }
 
 @media only screen and (max-width: 577px){
+    .navbar-nav{
+        align-items: center;
+    }
+
     .visible-small{
         display: block;
     }
@@ -276,13 +337,12 @@ body{
         text-decoration: none;
         color: black;
         position: relative;
-        left: 35%;
+        left: 20%;
     }
 
     .call-btn + div{
-        position: relative;
         color: white;
-        left: 45%;
+        margin-left: 42%;
         font-size: 10px;
         margin-bottom: 5px;
     }
@@ -294,7 +354,8 @@ body{
         margin-bottom: 10px;
         border: 2px groove #d3d3d391;
         border-radius: 9px;
-        margin-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #hours, #address{
@@ -305,6 +366,9 @@ body{
        font-size: 20px;
     }
 
-    
+    .menu-item-photo{
+        margin-right: auto;
+    }
+   
     
 }
