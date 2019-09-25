@@ -290,7 +290,8 @@ margin-top: 10px;
 
 @media only screen and (max-width: 577px){
     .navbar-nav{
-        align-items: center;
+        display: block;
+        text-align: center;
     }
 
     .visible-small{
@@ -367,8 +368,25 @@ margin-top: 10px;
     }
 
     .menu-item-photo{
-        margin-right: auto;
+        margin-left: 12%;
     }
-   
+
+    .menu-item-photo div{
+        right: 40px;
+    }
+
+    .menu-item-tile .menu-item-price{
+        margin-left: 45%;
+    }
+
+    .menu-item-description{
+        text-align: center;
+    }
+
+    .menu-item-description h5{
+        font-size: 0.9em;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
     
 }
