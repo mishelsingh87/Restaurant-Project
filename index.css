@@ -194,11 +194,12 @@ margin-top: 10px;
 }
 
 .menu-item-tile .menu-item-price{
-    margin-left: 82%;
+    margin-left: 50%;
 }
 
 .menu-item-photo{
     position: relative;
+    margin-left: 75px;
 }
 
 .menu-item-photo div{
@@ -368,11 +369,11 @@ margin-top: 10px;
     }
 
     .menu-item-photo{
-        margin-left: 24%;
+        margin-left: 13%;
     }
 
     .menu-item-photo div{
-        right: 33%;
+        right: 17%;
     }
 
     .menu-item-tile .menu-item-price{
